@@ -4,7 +4,7 @@ This is the AudioFetch SDK Library for public consumption.
 
 To include and use the library:
 
-1.  Copy the libs/afaudiolib.aar to your projects libs folder.
+1.  Copy the libs/afaudiolib.aar to your project's libs folder.
 2.  Add the following snippet to your repositories section of the app's build.gradle
 
 ```
