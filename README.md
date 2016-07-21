@@ -9,7 +9,8 @@ To include and use the library:
 
 ```
 repositories {
-	flatDir {
+    mavenCentral()
+    flatDir {
         dirs 'libs'
     }
 }
@@ -19,7 +20,15 @@ repositories {
 
 ```
 dependencies {
-	compile(name: 'afaudiolib', ext: 'aar')
+    compile 'com.android.support:support-v4:23.+'
+    compile 'com.android.support:appcompat-v7:23.+'
+    compile 'com.android.support:support-v13:23.+'
+    compile 'com.android.support:support-annotations:23.+'
+
+    compile(name: 'afaudiolib', ext: 'aar')
+    // required by above AudioFetch SDK
+    compile 'com.squareup:otto:1.3.8'
+    compile 'com.google.guava:guava:19.0'
 }
 ```
 
