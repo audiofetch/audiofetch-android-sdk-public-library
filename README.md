@@ -32,4 +32,4 @@ dependencies {
 }
 ```
 
-See documentation and reference architecture app for more implementation details.
+See [documentation](https://github.com/audiofetch/audiofetch-android-sdk-public-library/tree/master/docs) and the [reference architecture app](https://github.com/audiofetch/audiofetch-android-sdk-sample) for more implementation details.
