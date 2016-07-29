@@ -20,13 +20,11 @@ repositories {
 
 ```
 dependencies {
-    compile 'com.android.support:support-v4:23.+'
-    compile 'com.android.support:appcompat-v7:23.+'
-    compile 'com.android.support:support-v13:23.+'
-    compile 'com.android.support:support-annotations:23.+'
-
+    // audiofetch android SDK lib
     compile(name: 'afaudiolib', ext: 'aar')
-    // required by above AudioFetch SDK
+
+    // required by above AudioFetch SDK lib
+    compile 'com.android.support:support-annotations:23.+'
     compile 'com.squareup:otto:1.3.8'
     compile 'com.google.guava:guava:19.0'
 }
