@@ -30,4 +30,5 @@ dependencies {
 }
 ```
 
-See [documentation](AudioFetchSDKDocumentation_rev_1_0.pdf) and [javadoc documentation](https://github.com/audiofetch/audiofetch-android-sdk-public-library/tree/master/docs) and the [reference architecture app](https://github.com/audiofetch/audiofetch-android-sdk-sample) for more implementation details.
+See [documentation](https://github.com/audiofetch/audiofetch-android-sdk-public-library/raw/master/AudioFetchSDKDocumentation_rev_1_0.pdf) and [javadoc documentation](https://github.com/audiofetch/audiofetch-android-sdk-public-library/tree/master/docs) and the [reference architecture app](https://github.com/audiofetch/audiofetch-android-sdk-sample) for more implementation details.
+.
