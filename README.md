@@ -21,12 +21,12 @@ repositories {
 ```
 dependencies {
     // audiofetch android SDK lib
-    compile(name: 'afaudiolib', ext: 'aar')
+    implementation(name: 'afaudiolib', ext: 'aar')
 
     // required by above AudioFetch SDK lib
-    compile 'com.android.support:support-annotations:23.+'
-    compile 'com.squareup:otto:1.3.8'
-    compile 'com.google.guava:guava:19.0'
+    implementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'com.squareup:otto:1.3.8'
+    implementation 'com.google.guava:guava:19.0'
 }
 ```
 
