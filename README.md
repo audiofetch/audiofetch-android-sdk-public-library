@@ -1,6 +1,10 @@
-# AudioFetch Android SDK Sample App v2
+# AudioFetch Android SDK Public Library
 
 ## Overview
+
+The afaudiolib.aar is the public library for creating Android apps that incorporate Audiofetch real time audio streaming. For an example of how to integrate this library, please see the audiofetch-android-sdk-sample repository.
+
+## SDK Overview
 
 The AudioFetch Android SDK allows AudioFetch partner companies to add real-time, low latency streaming audio capability to their own Android App. The SDK takes the form of an Android library that may be linked against. An example application showing how to use the SDK is also provided.
 
