@@ -1,7 +1,6 @@
-AudioFetch Android SDK Sample App v2
-====================================
+# AudioFetch Android SDK Sample App v2
 
-#Overview
+## Overview
 
 The AudioFetch Android SDK allows AudioFetch partner companies to add real-time, low latency streaming audio capability to their own Android App. The SDK takes the form of an Android library that may be linked against. An example application showing how to use the SDK is also provided.
 
@@ -63,7 +62,7 @@ The AudioFetch service does not make any assumptions about your application stru
 Note that volume is not handled in the Audiofetch Service, but is the responsibility of the application to manage, if desired. The sample application contains a volume slider that enables user control of volume.
 
 
-#Discovery Process
+## Discovery Process
 
 Discovery of AudioFetch boxes is initiated on startup when initAudioSubsystem() is called. This discovery typically lasts for up to 10 seconds, and automatically stops when complete and results in a ChannelsReceivedMsg being sent from the serivce to the app with appropriate channel information about any AudioFetch boxes that were discovered.
 
@@ -71,7 +70,7 @@ After this time period, a call to startDiscovery() will re-initiate this process
 
 
 
-#Steps To Integrate The AudioFetch SDK Into Your App
+## Steps To Integrate The AudioFetch SDK Into Your App
 
 1. Add Packages and AudioFetch library to build.gradle
 
@@ -242,7 +241,7 @@ After this time period, a call to startDiscovery() will re-initiate this process
 ````
 
 
-#AudioFetch API Details
+## AudioFetch API Details
 
 Incoming Messages and Convenience Wrapper Functions:
 
