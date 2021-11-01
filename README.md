@@ -1,6 +1,8 @@
 # AudioFetch Android SDK Public Library
 
-## Overview
+##### Note: v2.2.0 RC1 is undergoing internal testing, bugfix changes may occur before final release.
+
+# Overview
 
 The afaudiolib.aar is the public library for creating Android apps that incorporate Audiofetch real time audio streaming. For an example of how to integrate this library, please see the audiofetch-android-sdk-sample repository.
 
@@ -19,9 +21,9 @@ For commands to the AudioFetch service, convenience wrapper functions are provid
 
     AFAudioService.api().startAudio()
     AFAudioService.api().stopAudio()
-
+    
     AFAudioService.api().setChannel(1)
-
+    
     AFAudioService.api().startDiscovery()
     AFAudioService.api().stopDiscovery()
 
@@ -57,7 +59,7 @@ These messages are published on an outgoing message bus, implemented in RxJava. 
                     ab.finish();
                 }
               }
-
+    
             });
 
 
@@ -272,7 +274,6 @@ Outgoing Messages:
 | WifiStatusMsg       | Sent when WiFi status changes, eg when WiFi connectivity is lost or gained. |
 | HeadsetMsg          | Sent when the headset is plugged in or unplugged. |
 | AudioFocusMsg       | Sent when the Android system audio focus changes. |
-
 
 
 
